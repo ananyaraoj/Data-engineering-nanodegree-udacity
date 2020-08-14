@@ -18,11 +18,14 @@ Link for the datasets: <br>
 * ###  Song dataset: 
 
     Each file is in JSON format and contains metadata about a song and the artist of that song. You can find it in data/song_data. For instance, the     file TRAABJL12903CDCF1A.json, looks like:<br>
-    >{"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name":      "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}<br> <br>
-<br>
+    
+    >{"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}<br> <br>
+
+
 * ###  Log dataset:
 
     This dataset consists of logfiles generated based on the song data. The files are in JSON format, partitioned by year and month. Below is an      example of what the data in a log file, 2018-11-12-events.json, looks like:<br>
+    
 > {"artist":"MrOizo","auth":"LoggedIn","firstName":"Kaylee","gender":"F","itemInSession":3,"lastName":<br>"Summers","length":144.03873,"level":"free",
     "location":"Phoenix-Mesa-Scottsdale, AZ","method":"PUT","page":"NextSong","registration":1540344794796.0,"sessionId":139,"song":"Flat  55","status":200,"ts":1541106352796,"userAgent":"\"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/35.0.1916.153  Safari\/537.36\"","userId":"8"}
 
